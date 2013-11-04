@@ -10,3 +10,7 @@
 - (FRESH) mulitple tanks per day - need to sum daily
 - (STALE) changing interval between tanks - assume equal amount collected from each day - divide total by nday.
 - all done by 'daysum.R', then thrown into tb 'daysums'
+
+## config failes
+- .fetchmailrc - login to gmail (has pword in plaintext)
+- .procmailrc - reads email matching subject 'MG Supplier Notification' to scraper.R

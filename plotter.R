@@ -1,9 +1,6 @@
 # script to spit out pretty plots
 # 20131030 HCrockford
 
-# wortley pastoral MFD investigation
-# 20131018 HCrockford
-
 library(ggplot2)
 library(RPostgreSQL)
 drv <- dbDriver("PostgreSQL")
